@@ -3,6 +3,7 @@ import {HttpClient} from '@angular/common/http'
 
 import {Subject} from 'rxjs'
 
+@Injectable()
 export class AppareilService {
 
   appareilsSubject = new Subject<any[]>()
